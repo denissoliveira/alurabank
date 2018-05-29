@@ -1,4 +1,7 @@
-class NegociacoesView extends View<Negociacoes> {
+import { View } from './View';
+import { Negociacoes } from '../models/Negociacoes';
+
+export class NegociacoesView extends View<Negociacoes> {
 
     template(model: Negociacoes): string {
 
@@ -24,7 +27,7 @@ class NegociacoesView extends View<Negociacoes> {
                         </tr>
                     `
                 ).join('') /* O join com valor string em branco, ele vai concatenar tudo em uma string */} 
-             </tbody>
+                </tbody>
 
             <tfoot>
             </tfoot>
