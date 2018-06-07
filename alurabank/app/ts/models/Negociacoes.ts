@@ -4,7 +4,7 @@ export class Negociacoes {
     
     private _negociacoes: Negociacao[] = [];
 
-    adicona(negociacao: Negociacao) {
+    adiciona(negociacao: Negociacao) {
         this._negociacoes.push(negociacao);
     }
 
